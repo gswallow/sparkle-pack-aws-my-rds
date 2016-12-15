@@ -2,6 +2,7 @@ SparkleFormation.dynamic(:rds_force_ssl) do |_name, _config={}|
 
   parameters("#{_name}_engine_family".to_sym) do
     type 'String'
+    allowed_pattern "[\\x20-\\x7E]*"
     allowed_values registry!(:parameter_group_families, _config.fetch(:engine, nil))
   end
 

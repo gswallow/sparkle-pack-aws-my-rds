@@ -1,1 +1,0 @@
-SparkleFormation::SparklePack.register!
