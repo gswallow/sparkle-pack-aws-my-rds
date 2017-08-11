@@ -13,6 +13,8 @@ SparklePack that deals with AWS RDS instances.  Contains registries that provide
 
 Also included is a dynamic, `rds_force_ssl`, that enforces SSL connections to the RDS instance.
 
+Also also included is a dynamic, `raise_max_connections`, that raises the maximum number of connections to the RDS instance.
+
 h/t to [techshell](https://github.com/techshell) for this approach.
 
 ### Environment variables

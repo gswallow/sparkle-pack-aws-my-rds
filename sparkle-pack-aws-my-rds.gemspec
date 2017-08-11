@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'sparkle-pack-aws-my-rds'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.licenses = ['MIT']
   s.summary = 'AWS RDS SparklePack'
   s.description = 'SparklePack to detect and set RDS DB settings'
